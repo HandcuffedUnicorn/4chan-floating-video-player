@@ -22,6 +22,10 @@ Features
 =========================================
 Installation
 
+If this doesn't works for any fucking reason on firefox, I have no idea why...
+Can't seem to be able to integrate the plugin in the about:addons
+But about:debugging accepts the xpi with no problems
+
 To install the extension, you will need the .xpi file.
 Step-by-Step Installation:
 
