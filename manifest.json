@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "4chan Video Player",
+  "version": "1.0",
+  "description": "Automatically play videos on 4chan threads in sequence.",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "downloads"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.4chan.org/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  }
+}
