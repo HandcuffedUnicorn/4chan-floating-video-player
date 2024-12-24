@@ -129,7 +129,7 @@ const createFloatingPlayer = () => {
   font-size: 14px;
   margin-left: 10px;
   border-left: 2px solid white;
-  max-height: ${playerHeight - 40}px; /* Adjust for close button */
+  max-height: ${playerHeight}px; /* Adjust for close button */
   `;
 
   // Close button setup
@@ -142,7 +142,7 @@ const createFloatingPlayer = () => {
   background-color: red;
   color: white;
   border: none;
-  font-size: 18px;
+  font-size: 10px;
   padding: 5px;
   cursor: pointer;
   `;

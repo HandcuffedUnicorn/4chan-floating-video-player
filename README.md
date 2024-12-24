@@ -5,7 +5,7 @@
 ██   ███   ███   █████████ ██████████████    ██    █████████████████████████   ██████████████████   ███   ████ 
                                                                                                                
                                                                                                             
-4CHAN Floating Video Player
+4CHAN Floating Video Player - FIREFOX ONLY?
 
 =========================================
 
@@ -20,24 +20,26 @@ Features
     Cross-Video Playback: Switch between videos in your playlist and continue playback seamlessly.
 
 =========================================
-Installation
+Installation Using about:debugging in Firefox
 
-If this doesn't works for any fucking reason on firefox, I have no idea why...
-Can't seem to be able to integrate the plugin in the about:addons
-But about:debugging accepts the xpi with no problems
-
-To install the extension, you will need the .xpi file.
+If you're unable to install the extension via the regular about:addons page, you can use the about:debugging page to install it manually.
 Step-by-Step Installation:
 
-    Open Firefox and navigate to the Add-ons Manager page by typing about:addons in the address bar, or by clicking on the Menu button in the top-right corner, then selecting Add-ons.
+    Open Firefox:
+        Launch Firefox and type about:debugging in the address bar, then press Enter.
 
-    Install the Extension:
-        Drag and Drop: Drag and drop the .xpi file directly onto the Add-ons Manager page.
-        Manual Installation: Alternatively, click the gear icon in the top-right corner of the Add-ons Manager, and choose Install Add-on from File. Then, select the .xpi file from your system.
+    Load Temporary Add-on:
+        Click the Load Temporary Add-on button.
+        A file dialog will appear. Select your .xpi file from your system and click Open.
 
-    Firefox will prompt you to confirm the installation of the extension. Click Add to proceed.
+    Confirmation:
+        Firefox will prompt you to confirm that you want to install the extension. Click Add to proceed.
 
-    Once installed, the extension will be available in your browser, ready to use!
+    Extension Installed:
+        The extension will now be installed temporarily in Firefox. It will remain active until you close Firefox or remove it manually via about:debugging.
+
+    Using the Extension:
+        Once the extension is installed, you can use it just like any other extension in your browser. However, note that temporary extensions installed through about:debugging will not persist after you restart Firefox.
 
 =========================================
 Usage
